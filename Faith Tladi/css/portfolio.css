@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+nav {
+    display: flex;
+    height: 50px;
+    width: 95%;
+    justify-content: space-between;
+    margin: 2vw;
+    font-size: 1.2rem;
+}
+.profileName {
+    display: block;
+    margin-top: 1rem;
+}
+.profileName a:hover {color: rgb(167, 230, 223);}
+.navBar {
+   margin-top: 1rem;
+}
+.navBar a {margin-left: 3vw;}
+.navBar a:hover {
+    text-decoration: underline;
+    color: rgb(167, 230, 223); 
+}
+.container {
+    margin: 0vh 0 0 7vw;
+    padding: .5rem 2rem;   
+}
+.school-purpose {
+    height: 400px;
+    display: flex;
+    margin-top: 100px;
+}
+.partnership {
+    width: 410px;
+    text-align: center;
+}
+.skool-activities {
+    display: flex;
+    width: 600px;
+    margin-left: 40px;
+    margin-top: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+.skool-activities img {
+    width: 285px;
+    height: 200px;
+}
+.skool-activities p {
+  padding-left: 10px;
+}
+.academ {
+    width: 285px;
+    height: 388px;
+    background-color: rgb(61, 13, 107);
+}
+.tutor {
+  width: 285px;
+  height: 388px;
+  background-color: rgb(128, 4, 4);
+}
+.skool-activities a {
+  color: white;
+  text-decoration: none; 
+}
+.academ .btn-btn {
+  align-content: center;
+  width: 275px;
+  height: 40px;
+  font-size: inherit;
+  background-color: rgba(142, 60, 219, 0.678);
+  margin: 10px 0px 10px 0px;
+  border-style: hidden;
+}
+.tutor .btn-btn {
+  align-content: center;
+  width: 275px;
+  height: 40px;
+  font-size: inherit;
+  background-color: rgb(199, 22, 22);
+  margin: 10px 10px 0px 10px;
+  border-style: hidden;
+}

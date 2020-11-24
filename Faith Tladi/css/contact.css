@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+nav {
+    display: flex;
+    height: 50px;
+    width: 95%;
+    justify-content: space-between;
+    margin: 2vw;
+    font-size: 1.2rem;
+}
+.profileName {
+    display: block;
+    margin-top: 1rem;
+}
+.profileName a:hover {color: rgb(167, 230, 223);}
+.navBar {
+   margin-top: 1rem;
+}
+.navBar a {margin-left: 3vw;}
+.navBar a:hover {
+    text-decoration: underline;
+    color: rgb(167, 230, 223); 
+}
+.container {
+    width: 30%;
+    margin: 20vh 0 0 30vw;
+    height: 25vh;
+    background-color: rgba(179, 241, 235, 0.267);
+    padding: .5rem 2rem;   
+}
+.social {
+    height: ;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-size: 1.5vw;
+}
+.social a {padding-right: 1vw;}
+.social a:hover {color: rgb(167, 230, 223); }
